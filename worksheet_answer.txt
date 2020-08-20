@@ -1,0 +1,91 @@
+1. (C) between -1 and 1
+2. (C) Recursive feature elimination
+3. (C) hyperplane
+4. (D) Support Vector Classifier
+5. (C) old coefficient of ‘X’ ÷ 2.205
+6. (B) increases
+7. (B) Random Forests explains more variance in data then decision trees
+
+8. (A) Principal Components are calculated using supervised learning techniques
+   (B) Principal Components are calculated using unsupervised learning techniques
+   
+9. (A) Identifying developed, developing and under-developed countries on the basis of factors like GDP, poverty index, employment rate, population and living index 
+   (D) Identifying different segments of disease based on BMI, blood pressure, cholesterol, blood sugar levels  
+   
+10.(A) max_depth
+   (B) max_features
+   (D) min_samples_leaf 
+
+11. What are outliers? Explain the Inter Quartile Range(IQR) method for outlier detection. 
+
+Answer:- An outlier is an observation that diverges from overall pattern on a given sample.
+Examples:-For example in a country following left-hand driving, a vehicle moving in a wrong direction will be an anomaly.
+
+    Inter Quartile Range(IQR):- 
+	Inter Quartile Range is the difference between the upper and lower quartile values in the dataset and it is useful in detecting the presence of outliers.
+    IQR = Q3 – Q1. The first quartile Q1, which represents a quarter of the way through the list of all data. The third quartile Q3, which represents three-quarters of    the way through the list of all data
+    
+	Using the Interquartile Rule to Find Outliers:
+	   1)Calculate the interquartile range for the data.
+	   2)Multiply the interquartile range (IQR) by 1.5 (a constant used to discern    outliers).
+	   3)Add 1.5 x (IQR) to the third quartile. Any number greater than this is a suspected outlier.
+	   4)Subtract 1.5 x (IQR) from the first quartile. Any number less than this is a suspected outlier.
+	   
+12) What is the primary difference between bagging and boosting algorithms?	
+
+Answer:- Bagging : a)Bagging is a simple and very powerful ensemble method.
+                   b)Aim to decrease variance, not bias.
+		   c)Every model is constructed independently.
+		   d)Every model receives an equal weight.
+		   e)Bagging tries to solve over-fitting problem.
+		   f)If the classifier is unstable (high variance), then apply bagging.
+		   g)Algorithm: Random Forest
+				   
+         Boosting: a)Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model.
+                   b)Aim to decrease bias, not variance.
+                   c)New models are affected by the performance of the previously developed model.
+                   d)Models are weighted by their performance.
+                   e)Boosting tries to solve underfitting problem.
+                   f)If the classifier is stable and simple (high bias) the apply boosting
+		   g)Algorithm : Ada Boost, Gradient Boosting, XGBoosting, etc
+
+13) What is adjusted R2 in logistic regression. How is it calculated?
+
+Answer:- Technically, R2 cannot be computed the same way in logistic regression as it is in OLS regression. The pseudo-R2, in logistic regression, is defined as 1−L1/L0, where L0 represents the log likelihood for the "constant-only" model and L1 is the log likelihood for the full model with constant and predictors.
+ 
+14) What is the difference between standardisation and normalisation?
+
+Answer:- Normalization :-
+			 Normalization typically means rescales the values into a range of [0,1]. 
+	 Standardisation:-
+			 Standardization typically means rescales data to have a mean of 0 and a standard deviation of 1 
+
+15) What is cross-validation? Describe one advantage and one disadvantage of using  cross-validation.
+
+Answer:- Cross Validation in Machine Learning is a great technique to deal with overfitting problem in various algorithms. Instead of training our model on one training dataset, we train our model on many datasets.
+
+   Advantage :- The advantage of this method is that the proportion of the validation or training split is not dependent on the number of folds (K-fold test). This prevents our model from overfitting the training dataset.
+
+   Disadvantage :-  Increases Training Time: There are chances that you might miss out some observations whereas you might select some observations more than once. 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 				   
+				
+				   
+   
+
+
+
+
+
+  
